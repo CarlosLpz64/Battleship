@@ -1,0 +1,93 @@
+.titulo{
+    font-size: 3vw;
+}
+
+.nombres{
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nombre{
+    background-color: blueviolet;
+    width: 40vw;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.juego{
+    width: 100vw;
+    height: 100%;
+    /* background-color: rgb(217, 0, 255); */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tablero{
+    width: 40vw;
+    height: 40vw;
+    background-color: rgb(48, 48, 61);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.casilla{
+    width: 12.5%;
+    height: 12.5%;
+    /*border-style:solid;*/
+}
+
+.agua{
+    background: rgb(148,187,233);
+    background: radial-gradient(circle, rgba(148,187,233,1) 0%, rgba(124,163,176,1) 100%);
+}
+
+.agua:hover{
+    background: rgb(148,187,233);
+    background: radial-gradient(circle, rgba(148,187,233,1) 0%, rgba(149,194,209,1) 100%);
+}
+
+.barco{
+    background: rgb(208,135,50);
+    background: radial-gradient(circle, rgba(208,135,50,1) 0%, rgba(154,90,15,1) 100%);
+}
+
+.barco:hover{
+    background: rgb(221,172,114);
+    background: radial-gradient(circle, rgba(221,172,114,1) 0%, rgba(154,90,15,1) 100%);
+}
+
+
+.barcoDestruido{
+    background: rgb(203,43,43);
+    background: radial-gradient(circle, rgba(203,43,43,1) 0%, rgba(154,90,15,1) 100%);
+}
+
+.barcoDestruido:hover{
+    background: rgb(251,21,21);
+    background: radial-gradient(circle, rgba(251,21,21,1) 0%, rgba(154,90,15,1) 100%);
+}
+
+.bombaSuelta{
+    background: rgb(205,114,132);
+    background: radial-gradient(circle, rgba(205,114,132,1) 0%, rgba(124,163,176,1) 100%);
+}
+
+.bombaSuelta:hover{
+    background: rgb(230,99,99);
+    background: radial-gradient(circle, rgba(230,99,99,1) 0%, rgba(124,163,176,1) 100%);
+}
+
+.ganador{
+    width: 100vw;
+    height: 70vh;
+    background-color: green;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    position: fixed;
+
+}
